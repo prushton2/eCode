@@ -1,5 +1,3 @@
-x = 2
-if(x == 1):
-    print("x == 1")
-else:
-    print("x != 1")
+x = input("Whats your favorite color? ")
+z = "blue" if x != "blue" else "green"
+print(f"Your favorite color is not {z}")

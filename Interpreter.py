@@ -1,7 +1,8 @@
+import sys
 charmap = __import__("charmap") 
-eCode = open("eCode.e", "r")
+eCodeFile = open(sys.argv[1], "r")
 codeOutput = open("codeOutput.py", "w")
-eCode = eCode.read()
+eCode = eCodeFile.read()
 
 eCode = eCode.split(" ") 
 program = ""
@@ -12,5 +13,6 @@ program = program[0:-1] #For some reason it appends the last character in the ch
 
 codeOutput.write(program)
 codeOutput.close()
+eCodeFile.close()
 codeToRun = __import__("codeOutput")
 codeToRun
