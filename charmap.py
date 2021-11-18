@@ -1,3 +1,3 @@
-characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890:()[]!@#$%^&*()\"=}{?"
+characters = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+QWERTYUIOP}{|ASDFGHJKL:\"ZXCVBNM<>?"
 charmap = ["\n", " "]
 charmap += list(characters)
