@@ -8,7 +8,7 @@ pyCode = open(sys.argv[1], "r")
 program = ""
 for i in pyCode.read():
     program += "e"*(charmap.charmap.index(i)+1)
-    program += " "
+    program += "\n"
 eCode.write(program)
 
 eCode.close()

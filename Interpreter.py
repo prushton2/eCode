@@ -4,7 +4,7 @@ eCodeFile = open(sys.argv[1], "r")
 codeOutput = open("codeOutput.py", "w")
 eCode = eCodeFile.read()
 
-eCode = eCode.split(" ") 
+eCode = eCode.split("\n") 
 program = ""
 
 for i in eCode:
